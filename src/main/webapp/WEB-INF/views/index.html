@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Index page</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="JS/index.js"></script>
+</head>
+<body>
+	<h1>Home Page</h1>
+	<span id="messageSpan"></span>
+	<form>
+		<label>Student name :</label> <input type="text"
+			placeholder="Enter the student name" id="studentName" /><br>
+		<label>Offence :</label> <select id="offences" multiple>
+		</select><br> <label>Good/Bad Time :</label> <input type="radio"
+			name="time" value="good" checked /> Good <input type="radio"
+			name="time" value="bad" /> Bad<br> <label>Calculation
+			mode :</label> <input type="radio" name="calculation" value="concurrent"
+			checked /> Concurrent <input type="radio" name="calculation"
+			value="consecutive" /> Consecutive<br> <br> <input
+			type="button" value="Calculate" onclick="calculate()"/>
+	</form>
+</body>
+
+</html>
